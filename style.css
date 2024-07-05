@@ -3,32 +3,72 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em 0;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
     text-align: center;
+    margin-bottom: 50px;
 }
 
-section {
-    margin: 2em;
-    padding: 2em;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.header img {
+    border-radius: 50%;
+    width: 150px;
 }
 
-h1, h2 {
-    color: #4CAF50;
+.header h1 {
+    margin: 10px 0;
+    font-size: 2em;
 }
 
-a {
+.header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.contact-info a {
     color: #4CAF50;
     text-decoration: none;
 }
-a:hover {
+
+.contact-info a:hover {
     text-decoration: underline;
+}
+
+.awards img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
 }
